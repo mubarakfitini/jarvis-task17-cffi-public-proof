@@ -1,0 +1,1112 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 208,
+    "sha256": "2a67a60bbfb33759d67d645ff131b8e6d6bc4cafc232d751fcac3eda4d314cc8"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1123,
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "MANIFEST.in",
+    "bytes": 344,
+    "sha256": "1d0060c1d407e5e3ce7765eba4321a3ef3b205e5e2a7f6e49a0eaf2497ba1b74"
+  },
+  {
+    "path": "PKG-INFO",
+    "bytes": 2527,
+    "sha256": "558bafb9093a8e790175d9ecff9688382981d744877dad86fd6770db0f4dc918"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1202,
+    "sha256": "ab92d669d8e34a600a8437bc78aaa932affa62f020fd2ef332661014218af1d6"
+  },
+  {
+    "path": "demo/_curses.py",
+    "bytes": 30508,
+    "sha256": "16ddcabc4ec9fd9504f7c72ee41ff4cb07706402b9ebdbdae0c8a414a4573d32"
+  },
+  {
+    "path": "demo/_curses_build.py",
+    "bytes": 8868,
+    "sha256": "c6d6469622604bff33c7f8d1edf9900540e8cc88587a51555d081d0af5fdd34a"
+  },
+  {
+    "path": "demo/_curses_setup.py",
+    "bytes": 305,
+    "sha256": "b9fd62ffa8baefe79b43d7456fe1672cf5174f50de771d6772909ee7661a5afb"
+  },
+  {
+    "path": "demo/api.py",
+    "bytes": 1636,
+    "sha256": "af8ace39a9bf366ad92ce3a712f3d4a995a375d08da68056594032532827f260"
+  },
+  {
+    "path": "demo/bsdopendirtype.py",
+    "bytes": 1242,
+    "sha256": "0666b7913f29c6af151cf82dae3f0e376d71e17d12b0155cd556664cd092d1fa"
+  },
+  {
+    "path": "demo/bsdopendirtype_build.py",
+    "bytes": 575,
+    "sha256": "cf69af1b0c59714b8541e2896e2a83ab20a1437b8d03619d1722f3c0c4f1f5b6"
+  },
+  {
+    "path": "demo/bsdopendirtype_setup.py",
+    "bytes": 326,
+    "sha256": "2a5876d8a2f58abd60c8e9482d658619312750185d8951cfb7b6a4d5918bcc43"
+  },
+  {
+    "path": "demo/btrfs-snap.py",
+    "bytes": 1119,
+    "sha256": "5a20cc9141b0ca313bfcafc0aa9d24264a28d572b1aacb0ece2c2e1a47fdaffc"
+  },
+  {
+    "path": "demo/cffi-cocoa.py",
+    "bytes": 3354,
+    "sha256": "24f24d5080c52585a4b7a486436860cca0ae894a6d4414f0e134c9ea93032aa6"
+  },
+  {
+    "path": "demo/embedding.py",
+    "bytes": 398,
+    "sha256": "8ebd1c9e31b3485467c3c831ca0305577fa5e4de3e82a9a54efee99898d5be4b"
+  },
+  {
+    "path": "demo/embedding_test.c",
+    "bytes": 983,
+    "sha256": "f122eecf634cccc3f8c314c88889f41a8aafb25f3e2c4c2fd9a2e31e461649eb"
+  },
+  {
+    "path": "demo/extern_python.py",
+    "bytes": 460,
+    "sha256": "350f951e73072fbdc01f93d042036abbe8524519c94b1efd3bc20310a7a5ad61"
+  },
+  {
+    "path": "demo/extern_python_varargs.py",
+    "bytes": 1338,
+    "sha256": "e855e3accd33a786d366553bd3d4f8c1d1abfdc709f848240f0624a2cc75ba3a"
+  },
+  {
+    "path": "demo/fastcsv.py",
+    "bytes": 8353,
+    "sha256": "c85e2f110451582b7f3085b6e7c2bdb5edb8fb7ffe35e6932c820f0ecce30a47"
+  },
+  {
+    "path": "demo/gmp.py",
+    "bytes": 1007,
+    "sha256": "dd100e558d412bb44486310e51e7b91de4ae61e8e6eb5adf0d7a9311748a0fa6"
+  },
+  {
+    "path": "demo/gmp_build.py",
+    "bytes": 707,
+    "sha256": "bbb538ba39382703fe5ed48d02aa1bed7a84bed69efef7ad8ad8cdd65cb8ac25"
+  },
+  {
+    "path": "demo/manual.c",
+    "bytes": 3521,
+    "sha256": "524bb8428530be30babe1bb404aa76648e1868dfe6f600008e9314b28d909ccc"
+  },
+  {
+    "path": "demo/manual2.py",
+    "bytes": 1182,
+    "sha256": "a5d930bc970f87573d5436768c9681ef04c780083423170b7b32fbd1ca40ddf5"
+  },
+  {
+    "path": "demo/pwuid.py",
+    "bytes": 167,
+    "sha256": "ec8b370f5ed32c2d0158ece1767b727c9f4e8fe448ce0298b0c172449a12f295"
+  },
+  {
+    "path": "demo/pwuid_build.py",
+    "bytes": 358,
+    "sha256": "c6e6498c3d9cc37f571ba1477226c49c464739404c31d4c461be2ffe0d0abfa5"
+  },
+  {
+    "path": "demo/py.cleanup",
+    "bytes": 862,
+    "sha256": "83ed79836df3bc19a342e469d8853a6225ac88cab3f1d4d32e7838f4082bc17f"
+  },
+  {
+    "path": "demo/pyobj.py",
+    "bytes": 3392,
+    "sha256": "7053d8ae3ce76c4f59e63427033bffac1c6297968b109c3c91e5830113f15635"
+  },
+  {
+    "path": "demo/readdir.py",
+    "bytes": 825,
+    "sha256": "7f321bf6cc5587f7a9f2b36604f1d25a8749f7b42355cfdf3462efc2ecccc8c4"
+  },
+  {
+    "path": "demo/readdir2.py",
+    "bytes": 959,
+    "sha256": "565b93b5174e1f572e81c2e2817574c1a77ef99138916a43ae549757f0c72964"
+  },
+  {
+    "path": "demo/readdir2_build.py",
+    "bytes": 779,
+    "sha256": "cc582f314314feb42d81b6640237b24f3aca9a1184540cd2e2fd14c491929b9a"
+  },
+  {
+    "path": "demo/readdir2_setup.py",
+    "bytes": 201,
+    "sha256": "890781f1738aaf5678f1cd0a09b6f9301e1054f09d0e7304d57d89ca636aaf7f"
+  },
+  {
+    "path": "demo/readdir_build.py",
+    "bytes": 890,
+    "sha256": "9803799b6241f29aadc248bfbfb415c47b1f685c7e50a4301cf5ca0a97ab05c2"
+  },
+  {
+    "path": "demo/readdir_ctypes.py",
+    "bytes": 1787,
+    "sha256": "8095a1236fac29393252b79a4662a06831c0dbd4dce5d6c3e37ad21cf031c2c3"
+  },
+  {
+    "path": "demo/readdir_setup.py",
+    "bytes": 249,
+    "sha256": "a9a6409f1ed22f5b761c077788bf65549f164372b28cbbdbdfcdd90d34def8bf"
+  },
+  {
+    "path": "demo/recopendirtype.py",
+    "bytes": 1372,
+    "sha256": "dd6d835c3056cf502dd155cc34e1d8c77d5a27793fa5d32d165c340e141296d8"
+  },
+  {
+    "path": "demo/recopendirtype_build.py",
+    "bytes": 393,
+    "sha256": "ae5e415c23be8b917cfb8915e5ae77772a3b038d146feb5fd4daf21416965c00"
+  },
+  {
+    "path": "demo/setup_manual.py",
+    "bytes": 193,
+    "sha256": "a7806e000f0d51236f8420b0abc9f4ac9dc909b99f7c8d06a9cc2e13e8de4ed7"
+  },
+  {
+    "path": "demo/winclipboard.py",
+    "bytes": 1211,
+    "sha256": "9447fbbb2c46e51904dce1cee65fef10c21a6af36e762aa500ce4cc3b477d12e"
+  },
+  {
+    "path": "demo/winclipboard_build.py",
+    "bytes": 844,
+    "sha256": "2848411172e961f6d0814b9eafb710ca6cae3ecd5874143439bedc73f5413d96"
+  },
+  {
+    "path": "demo/xclient.py",
+    "bytes": 762,
+    "sha256": "d91f6040a6a4b1fa9861dad4cf58d0a7c90ca0f50f7fe7a0ace1802bc0cbf61a"
+  },
+  {
+    "path": "demo/xclient_build.py",
+    "bytes": 761,
+    "sha256": "aa0cd327579f8f2a5cb52714b8b49a2bad887fec0bd139576396f13e481f997f"
+  },
+  {
+    "path": "doc/Makefile",
+    "bytes": 3126,
+    "sha256": "006796f9d0d728104840a0b3264c90b18f3c947c74f6a51cd9ea4fa2fd2c2433"
+  },
+  {
+    "path": "doc/make.bat",
+    "bytes": 3071,
+    "sha256": "f50891ec41de03b28197db02f366bc35d20169a9e6faceb686ff91f21d355af1"
+  },
+  {
+    "path": "doc/misc/design.rst",
+    "bytes": 2803,
+    "sha256": "879eacd6151adc272e958bc599c1a239356fb581a0f7f128ccc37f311d38e9a5"
+  },
+  {
+    "path": "doc/misc/grant-cffi-1.0.rst",
+    "bytes": 5445,
+    "sha256": "48baee0a05cd72cb493e741da97753af0b1658b0b8ddbab21d4c48c6f5a4c421"
+  },
+  {
+    "path": "doc/misc/parse_c_type.rst",
+    "bytes": 2309,
+    "sha256": "8168f946da7430ad3975c5f8b8d09ce4511f9638e028b09d0c03f7f1139421b7"
+  },
+  {
+    "path": "doc/source/cdef.rst",
+    "bytes": 41685,
+    "sha256": "4ed83a2a74d2f175a4dcdfb04e3a0bb94640f29ac3c6dc10a8814a52952ff591"
+  },
+  {
+    "path": "doc/source/cffi-gen-src.rst",
+    "bytes": 12449,
+    "sha256": "5a0ad3dee1bead2121d31b7665a07d5323ec81858d9c171dd53d96d3984642f4"
+  },
+  {
+    "path": "doc/source/conf.py",
+    "bytes": 6303,
+    "sha256": "23a85b0b708ef62d53603194e111441f0aa053f6769713809945638052573a3e"
+  },
+  {
+    "path": "doc/source/embedding.rst",
+    "bytes": 22705,
+    "sha256": "9ff57dc63f8efc0018e0ffb09edd9135cb16541813f3efce26a84f6cc9567ab4"
+  },
+  {
+    "path": "doc/source/goals.rst",
+    "bytes": 3006,
+    "sha256": "daa376eecffa3fb9b13a5d31d0a2a1833ddc3637d02558b72e9a9252ebb00663"
+  },
+  {
+    "path": "doc/source/index.rst",
+    "bytes": 401,
+    "sha256": "532794e0156928d5eea738051c31a2770d3668465e621adcea3a039bbbc5613b"
+  },
+  {
+    "path": "doc/source/installation.rst",
+    "bytes": 5195,
+    "sha256": "fa56fc180ef8efd8bcbb9721f62c9d7b3c1cc9c6e5524fb3453226d2e2ecebea"
+  },
+  {
+    "path": "doc/source/overview.rst",
+    "bytes": 29469,
+    "sha256": "b7d64423d0647dff56621e8d9ebf9e0731ea6641c9cb228b2556241925011948"
+  },
+  {
+    "path": "doc/source/ref.rst",
+    "bytes": 49981,
+    "sha256": "a3a3766e691ab1061c876c197e1652dccc1619011bc99a3a208ad31692e30f42"
+  },
+  {
+    "path": "doc/source/using.rst",
+    "bytes": 41408,
+    "sha256": "e1ba2aae6aba1afc5aa3724c1dd7967f04a3428590c57e0c7b4a04d016a7f7bd"
+  },
+  {
+    "path": "doc/source/whatsnew.rst",
+    "bytes": 36924,
+    "sha256": "42002bbfc949bd373b18ff96de13d857613aa0ab472b2fe942cc409e022fd322"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 1592,
+    "sha256": "5319b77e4b41ab9bab0f352a3e2ef6277b0626c4c239a0736f9e15dbc417d693"
+  },
+  {
+    "path": "setup.cfg",
+    "bytes": 38,
+    "sha256": "1c473cbaee8da5fc46e7f0158794af5cea4414c34a3cf3f180c2001f5e38bd3e"
+  },
+  {
+    "path": "setup.py",
+    "bytes": 8199,
+    "sha256": "f4205f108b2fc7798e854724918a2790951137200980b65b6a5e652d612b07f7"
+  },
+  {
+    "path": "setup_base.py",
+    "bytes": 914,
+    "sha256": "0d18710d7107bfb24b664f145e364961cea59a8673deaa8268e844e81a7f5464"
+  },
+  {
+    "path": "src/c/_cffi_backend.c",
+    "bytes": 273899,
+    "sha256": "335899c93f88c53939fa8121502fb7129f34b9b8bdd97563d33346e0e91f9964"
+  },
+  {
+    "path": "src/c/call_python.c",
+    "bytes": 9706,
+    "sha256": "6000b41af46d69fb219046c4a479c2eb649ec9b81ab0dbca63506aca6276f730"
+  },
+  {
+    "path": "src/c/cdlopen.c",
+    "bytes": 12510,
+    "sha256": "bab75068b2e4713f3f48d8d4c212011a04072d15a68c9f35657c03cfdeeadc1f"
+  },
+  {
+    "path": "src/c/cffi1_module.c",
+    "bytes": 6902,
+    "sha256": "4b1d23c1296d170fdbd50d2b495503764f7a091f06704159661d2f1e917fc9c6"
+  },
+  {
+    "path": "src/c/cglob.c",
+    "bytes": 3369,
+    "sha256": "0f74a63de81de6fb9c93eabf639b2fa30b8c9b64a2d368221577443bec0a0757"
+  },
+  {
+    "path": "src/c/commontypes.c",
+    "bytes": 6352,
+    "sha256": "a2c4c38ff13daf6b4fdfb65d84371af9a3f750af0a098cb0b64de028630ce705"
+  },
+  {
+    "path": "src/c/ffi_obj.c",
+    "bytes": 43905,
+    "sha256": "936ab9fb4d8a755af0bc5e45afdf1784c484860ab242530f178a5c87aa925c00"
+  },
+  {
+    "path": "src/c/file_emulator.h",
+    "bytes": 2224,
+    "sha256": "60beec0f874a44226711c76b53d53ac66549dc066ac6a30750c0e92b6c022d27"
+  },
+  {
+    "path": "src/c/lib_obj.c",
+    "bytes": 24508,
+    "sha256": "c08158609d8dca410a4ec1eb1fb25b45335170d06055f279712cdda50df855ff"
+  },
+  {
+    "path": "src/c/libffi_arm64/ffi.lib",
+    "bytes": 66014,
+    "sha256": "1d1a5ba5c06180b3e1a869ec8b1db646bb44a2baf7a821257c4f89a34b408bb8"
+  },
+  {
+    "path": "src/c/libffi_arm64/include/ffi.h",
+    "bytes": 14215,
+    "sha256": "10cfd89f8cb470aa1b12ab2f641cbb48e9adfd8bc510623c1ed24a98f27c18d7"
+  },
+  {
+    "path": "src/c/libffi_arm64/include/fficonfig.h",
+    "bytes": 6745,
+    "sha256": "6348e751e1f55efb41b33f89b244070d7afa956c7bf58dbacf7ca7f2871ebf67"
+  },
+  {
+    "path": "src/c/libffi_arm64/include/ffitarget.h",
+    "bytes": 2748,
+    "sha256": "f416ed82c7c3a024433bfa269f4aeaae3b2880f9f82eb46cacb43e388e94a0f2"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/ffi.c",
+    "bytes": 12509,
+    "sha256": "1abda6df884d78f33be1ee8abf99c6dc1c8b60b6f72ac41ac27b42a98329334a"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/ffi.h",
+    "bytes": 9298,
+    "sha256": "96cc1f0392c280471c86164b31a5d5fbbce3141376c352ddc187d531cc740d0f"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/ffi_common.h",
+    "bytes": 2114,
+    "sha256": "70fc6e9f815ba8c6320c0b8a00d6c06ed763a58847708eb694123c687ddd5a65"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/fficonfig.h",
+    "bytes": 2973,
+    "sha256": "742907d362beb3b3308719541c8c94c3b7539a6cb9eb77fe202be45303bae6da"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/ffitarget.h",
+    "bytes": 2699,
+    "sha256": "f4fb7eaffbe13a11035174284eba68934f3cf41eb16d044f157d8bdd966b14da"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/prep_cif.c",
+    "bytes": 5720,
+    "sha256": "e04a2106e3f14333d5f79515d65fbb7b177de59b520b6860e95d5869202bf6af"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/types.c",
+    "bytes": 3556,
+    "sha256": "f398aad1c87cb8168d29f9ad1222e6e250b83847272b3caad21db3319a5ec2a5"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/win32.c",
+    "bytes": 4712,
+    "sha256": "b893d4254903d843c4fa889640e7124a98d39a3eb65b2b916bad7359e6a193c6"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/win64.asm",
+    "bytes": 3096,
+    "sha256": "020ed36b231fadd51fcd93c1a92648c1346df9ec6a536ae892b807aed20cc1ad"
+  },
+  {
+    "path": "src/c/libffi_x86_x64/win64.obj",
+    "bytes": 1176,
+    "sha256": "fa75a54e8ec34f6c4bd67edcfd4d484a75a7c23a0ffc8952ccf9a3fd14d8a3f3"
+  },
+  {
+    "path": "src/c/malloc_closure.h",
+    "bytes": 5294,
+    "sha256": "6366df94e2a512dca7157a3ff183092fdf69aafd89d763eab7b70f4684abfa73"
+  },
+  {
+    "path": "src/c/minibuffer.h",
+    "bytes": 11725,
+    "sha256": "1a34875dc4f616ef6c0eb8772fb23bb0ddd1efb9e964757741143b5288c290d5"
+  },
+  {
+    "path": "src/c/misc_thread_common.h",
+    "bytes": 13366,
+    "sha256": "7e690d56e244b7391c74bafacea5c0dba0f1807f9240fc9276939c6f11280ee3"
+  },
+  {
+    "path": "src/c/misc_thread_posix.h",
+    "bytes": 2350,
+    "sha256": "9cd941b4ebe17fd8828711e1ed03cc36f00eb6c1d24c55c5aa4563867c96d347"
+  },
+  {
+    "path": "src/c/misc_win32.h",
+    "bytes": 7755,
+    "sha256": "4ec59f4d7f2615a0897208b6f0e5a5b5620eae3e7d4a8375428240288c7c7c42"
+  },
+  {
+    "path": "src/c/parse_c_type.c",
+    "bytes": 26526,
+    "sha256": "66aa2f84f95db2b2b4b25eb5938e891e6e60c7a0f4c914dbf0d15d0589f252d0"
+  },
+  {
+    "path": "src/c/realize_c_type.c",
+    "bytes": 28112,
+    "sha256": "d62027235fe9af53be9c4550fc04450433b08ab62959fd543f20a9a5b5d89449"
+  },
+  {
+    "path": "src/c/test_c.py",
+    "bytes": 164642,
+    "sha256": "d5d834d65681043f00fe1e40eec555e8707f95b23f36d46d8532fe6b438c947f"
+  },
+  {
+    "path": "src/c/wchar_helper.h",
+    "bytes": 6735,
+    "sha256": "4faee8a75fe04d77f42aed7d9ad11ed96d8e0e051095a23d5775dba60b61fa0f"
+  },
+  {
+    "path": "src/c/wchar_helper_3.h",
+    "bytes": 4414,
+    "sha256": "956749dc021ca76c36952ba00ab5180120eda2d05b1145f71ca1a283f3fc9247"
+  },
+  {
+    "path": "src/cffi/__init__.py",
+    "bytes": 511,
+    "sha256": "c47b2db28c5f197e242d4dd4af95b7ebb0da65763fc76972cafd06f93e942cda"
+  },
+  {
+    "path": "src/cffi/_cffi_errors.h",
+    "bytes": 3583,
+    "sha256": "5b383ed01bb5fcad8610ad29494e5be90d86000b9d71a17cec7346f0ba05996c"
+  },
+  {
+    "path": "src/cffi/_cffi_gen_src.py",
+    "bytes": 7044,
+    "sha256": "c94479de91526ec6b7b2c17bfd53aa5d368a78be402531ccfddc99f48198f6cc"
+  },
+  {
+    "path": "src/cffi/_cffi_include.h",
+    "bytes": 15234,
+    "sha256": "cd8e8a168a3f6e96b4d8f6a042cd61cde5bd3b9eac9e2a25a32c6abd1280a2df"
+  },
+  {
+    "path": "src/cffi/_embedding.h",
+    "bytes": 17554,
+    "sha256": "3e101d00c70a0a5013559fa505c65e0c4735d85e85a9575a1ed689d8f920e84f"
+  },
+  {
+    "path": "src/cffi/_imp_emulation.py",
+    "bytes": 2960,
+    "sha256": "4714441bccc06c8d913c6070c3dd2eff97e2f2c59d6a1a5d8a93a83f3929ec2d"
+  },
+  {
+    "path": "src/cffi/_shimmed_dist_utils.py",
+    "bytes": 2230,
+    "sha256": "0638f6c26f3265bbc5bd6131e4011f9aa6aa6726458587e8c8b2d01e45d9b9aa"
+  },
+  {
+    "path": "src/cffi/api.py",
+    "bytes": 42013,
+    "sha256": "7165f5665b1c98ec9392fb61881a5458b712441b6a9699fe9a806ee1eb019b32"
+  },
+  {
+    "path": "src/cffi/backend_ctypes.py",
+    "bytes": 42283,
+    "sha256": "4fb092735e0fe6fca5a22e61ca8c7af2a841597d3bf68c075da1836d8fd4edba"
+  },
+  {
+    "path": "src/cffi/cffi_opcode.py",
+    "bytes": 5723,
+    "sha256": "e7ed5c53aa691c6cecb2d17f7a88250fff2d08393bebf6619338f77d6e1289cd"
+  },
+  {
+    "path": "src/cffi/commontypes.py",
+    "bytes": 2805,
+    "sha256": "ecdeb33ed08596fc57316847574f29b148dd6082b65e0b0ddf2a39760b9afefe"
+  },
+  {
+    "path": "src/cffi/cparser.py",
+    "bytes": 44754,
+    "sha256": "598fa8c785064ae552613b609b4d8598681b99cb9a6812b79a816591d1529ac5"
+  },
+  {
+    "path": "src/cffi/error.py",
+    "bytes": 877,
+    "sha256": "bfac53892e14d24bc3732e21fc10d1a39bf7f5942e8fe20c4582efe444dd759b"
+  },
+  {
+    "path": "src/cffi/ffiplatform.py",
+    "bytes": 3584,
+    "sha256": "6afc458dd8a460626812d9893bb7b0566c06fd511597a119fd668d859602aafe"
+  },
+  {
+    "path": "src/cffi/gen_src.py",
+    "bytes": 132,
+    "sha256": "4d4fd9543c282e71cf95a97cfe63e6a71ab2589ed4ef9da34dcdd4b13984d502"
+  },
+  {
+    "path": "src/cffi/lock.py",
+    "bytes": 747,
+    "sha256": "97d4d37703083298ba8c39091a742013d72f4c847b0809ed209afc1061edde96"
+  },
+  {
+    "path": "src/cffi/model.py",
+    "bytes": 21752,
+    "sha256": "700f9b10089b70751bb5ba9f80cab408b42314f02357425247333229588d805e"
+  },
+  {
+    "path": "src/cffi/parse_c_type.h",
+    "bytes": 5976,
+    "sha256": "39dc107f033d92dababe5081e377b11509b10c1b63d8c04d74af0b625d79b63c"
+  },
+  {
+    "path": "src/cffi/pkgconfig.py",
+    "bytes": 4365,
+    "sha256": "bb2b75d7b4d079e6b77636a03355b9828f11a67c921938280b337c407c997657"
+  },
+  {
+    "path": "src/cffi/recompiler.py",
+    "bytes": 65140,
+    "sha256": "4c9545d3b985cd819357ab33a76ccfac977674928737e781fd2ba22621a5f4ac"
+  },
+  {
+    "path": "src/cffi/setuptools_ext.py",
+    "bytes": 9566,
+    "sha256": "a59ae74ea54290632abbc37123191d6c8b65eb981e84c3f52e8ada51d4fbfb85"
+  },
+  {
+    "path": "src/cffi/vengine_cpy.py",
+    "bytes": 43030,
+    "sha256": "ad1a2e610e819650085cd8d91933d45b9e2b07de76aa2de0726d7a4965d628b7"
+  },
+  {
+    "path": "src/cffi/vengine_gen.py",
+    "bytes": 26931,
+    "sha256": "67f2aa685eabe789f98b886341385975bfb50c14c48a69d4e32e04fcac520838"
+  },
+  {
+    "path": "src/cffi/verifier.py",
+    "bytes": 11154,
+    "sha256": "c48cd5f220cc859d7eaa15f74515f80d6a36934ed6a5c271761840157023ae66"
+  },
+  {
+    "path": "src/cffi.egg-info/PKG-INFO",
+    "bytes": 2527,
+    "sha256": "558bafb9093a8e790175d9ecff9688382981d744877dad86fd6770db0f4dc918"
+  },
+  {
+    "path": "src/cffi.egg-info/SOURCES.txt",
+    "bytes": 6912,
+    "sha256": "9c190481e18140997f6c45a293f4a1c6535358ab05bb66281418455d4a76a6ed"
+  },
+  {
+    "path": "src/cffi.egg-info/dependency_links.txt",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "src/cffi.egg-info/entry_points.txt",
+    "bytes": 132,
+    "sha256": "a6b6108011f8e27050fe5269bba88c8051b414697880d3b0b6fbe3a03a0b001c"
+  },
+  {
+    "path": "src/cffi.egg-info/not-zip-safe",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "src/cffi.egg-info/requires.txt",
+    "bytes": 44,
+    "sha256": "e32fa53675a5cfe72023a59bebba69eb916097dc666c9ef082b03dde3d204ba8"
+  },
+  {
+    "path": "src/cffi.egg-info/top_level.txt",
+    "bytes": 19,
+    "sha256": "ac4ed6477ad97cd2b1588f7e8e7ea1b0708097b303901f859ae41bc568c57a14"
+  },
+  {
+    "path": "testing/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testing/cffi0/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testing/cffi0/backend_tests.py",
+    "bytes": 74072,
+    "sha256": "61d1ccd41be1ecf81f7f3bc322a236a3d38bf49aad2e01e4682681993bfb537f"
+  },
+  {
+    "path": "testing/cffi0/callback_in_thread.py",
+    "bytes": 1211,
+    "sha256": "c9278fd32197666ab6af2c65cede8d214bf258cc63a3ea4fb48df99e86327259"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_module/setup.py",
+    "bytes": 171,
+    "sha256": "77ffeaeb0a7ccceeffe52ffe98f7b38f0c6f3365f853a3f288ce9e33e79f3adc"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_module/snip_basic_verify.py",
+    "bytes": 428,
+    "sha256": "0651c9ae0936d36cc57d45d83a2ab01bdf56be58c9417e40e4254e2d26cd8fc2"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_package_1/setup.py",
+    "bytes": 172,
+    "sha256": "4867d3f7c111d55ad437291a755f7fe57036f2ed06e483c797814d844551e248"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_package_1/snip_basic_verify1/__init__.py",
+    "bytes": 428,
+    "sha256": "0651c9ae0936d36cc57d45d83a2ab01bdf56be58c9417e40e4254e2d26cd8fc2"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_package_2/setup.py",
+    "bytes": 210,
+    "sha256": "bae2bff80cd8df538c7cded1b71c2b7e0b06ba383f944d889d8e13ae45709269"
+  },
+  {
+    "path": "testing/cffi0/snippets/distutils_package_2/snip_basic_verify2/__init__.py",
+    "bytes": 467,
+    "sha256": "76a4b209206260e1f25746ba50d4be6609f502b153d8995058460dc94aa525d9"
+  },
+  {
+    "path": "testing/cffi0/snippets/infrastructure/setup.py",
+    "bytes": 100,
+    "sha256": "0cdd7e64bf4ec8a60c8e4e7ef68f616203c00b6f3de4e4531c9415243293830a"
+  },
+  {
+    "path": "testing/cffi0/snippets/infrastructure/snip_infrastructure/__init__.py",
+    "bytes": 27,
+    "sha256": "d617ab625ce52a63aa67b9a5eb8d7ac67fa83a1a0b2f38348bfa330eb46844c7"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_module/setup.py",
+    "bytes": 202,
+    "sha256": "4a4387367a6ff3fab4397bb6a1e14e377e7331ef163e857e6634918541fb334e"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_module/snip_setuptools_verify.py",
+    "bytes": 428,
+    "sha256": "0651c9ae0936d36cc57d45d83a2ab01bdf56be58c9417e40e4254e2d26cd8fc2"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_package_1/setup.py",
+    "bytes": 203,
+    "sha256": "d8854e3859a415ac015e6823e55465d5ee0bac63c01c32954f5131fb9ff99fdf"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_package_1/snip_setuptools_verify1/__init__.py",
+    "bytes": 428,
+    "sha256": "0651c9ae0936d36cc57d45d83a2ab01bdf56be58c9417e40e4254e2d26cd8fc2"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_package_2/setup.py",
+    "bytes": 246,
+    "sha256": "d7a8f05e7b2d0aebb94b2aa374cc0d306212dbc5571e94340b12b6a9a9ec0bb9"
+  },
+  {
+    "path": "testing/cffi0/snippets/setuptools_package_2/snip_setuptools_verify2/__init__.py",
+    "bytes": 472,
+    "sha256": "92e1b128a61f8cc5d5d114567e9d69a6bbe065f37caac2f0cbd80245b11cf36e"
+  },
+  {
+    "path": "testing/cffi0/test_cdata.py",
+    "bytes": 927,
+    "sha256": "b07f114e269c1bde7839b9a8a807b33dc8412280ac385f89947b2ec48bc45866"
+  },
+  {
+    "path": "testing/cffi0/test_ctypes.py",
+    "bytes": 1701,
+    "sha256": "8af8bafdf08df67041d0b38ae89124753335781c8dfe0c9baa7753be3209e7a5"
+  },
+  {
+    "path": "testing/cffi0/test_ffi_backend.py",
+    "bytes": 25476,
+    "sha256": "e87a636a32d369468482e8496e58bc925946af42af699abc42cc7a4285a7adbc"
+  },
+  {
+    "path": "testing/cffi0/test_function.py",
+    "bytes": 20255,
+    "sha256": "7429fe28c6293c14053cddf10cd5304645204f152347fa3d6e169c29df144a4d"
+  },
+  {
+    "path": "testing/cffi0/test_model.py",
+    "bytes": 5092,
+    "sha256": "368a0207189bb93d5fe06a909fb14524ca180251b156449b55cd6044222d0e2b"
+  },
+  {
+    "path": "testing/cffi0/test_ownlib.py",
+    "bytes": 13736,
+    "sha256": "02ad25d7a4827eaa7dcaec512d749b7d26df984e251fd7e05893dbf7429316f8"
+  },
+  {
+    "path": "testing/cffi0/test_parsing.py",
+    "bytes": 20013,
+    "sha256": "88bb3d0df9b3ee7c90109e7d2cefbcec97312f01136b428d072b2c16eaf6ce38"
+  },
+  {
+    "path": "testing/cffi0/test_platform.py",
+    "bytes": 858,
+    "sha256": "71b6606784f124b0492d1c90fc8126feac5e1bd6cad9cf5d4257c4dc122028a5"
+  },
+  {
+    "path": "testing/cffi0/test_unicode_literals.py",
+    "bytes": 1773,
+    "sha256": "d41bf5de03c4945fe424be16a9ea4b6e0f54468cd5ce6acb2168accb90878ca2"
+  },
+  {
+    "path": "testing/cffi0/test_verify.py",
+    "bytes": 89474,
+    "sha256": "0b8a4ad4a0ae55c6c156600cb016cd547f03aaf72f9c5737b04a5c52c12d2ff8"
+  },
+  {
+    "path": "testing/cffi0/test_verify2.py",
+    "bytes": 574,
+    "sha256": "d50b78b521940728ef5840917c1f6dc73c83dad5a7a25b09e5089f5acdf5900b"
+  },
+  {
+    "path": "testing/cffi0/test_version.py",
+    "bytes": 2178,
+    "sha256": "557deba4045c950109b96443e4f6c603d7aebf630b6f465e51bad54b1118d858"
+  },
+  {
+    "path": "testing/cffi0/test_vgen.py",
+    "bytes": 328,
+    "sha256": "94b50a6da5ef2ed3bfb7cfb990c9b94ad59e08ad973fbc4ddb532937da520a79"
+  },
+  {
+    "path": "testing/cffi0/test_vgen2.py",
+    "bytes": 425,
+    "sha256": "f93073109d7920fab27080a595fa0657fda6248d7ea582b959bc1835ccfb9e94"
+  },
+  {
+    "path": "testing/cffi0/test_zdistutils.py",
+    "bytes": 11918,
+    "sha256": "cf0d594da8e56cf7d1906b9ffa55fc1ab2b30cc2c626bc1dfa178546a2b7dc69"
+  },
+  {
+    "path": "testing/cffi0/test_zintegration.py",
+    "bytes": 7777,
+    "sha256": "4e838958da8755ef2a45768cd0744f8f9da87d3561da4a74bf5c2c00b089220b"
+  },
+  {
+    "path": "testing/cffi1/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/common/pyproject.toml",
+    "bytes": 274,
+    "sha256": "110c66e66038500a26421b2829f97a126a9b2ed81f22d13a6e58b27365c5f3c1"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/common/src/csrc/square.c",
+    "bytes": 61,
+    "sha256": "8f94ab65734a1edbf24c1c8393ac45f37119814d0c887abbf8cfd5326ee811c8"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/common/src/csrc/square.h",
+    "bytes": 62,
+    "sha256": "7bc79b271985b3148d47a4c32a28fe328248c9a3ebec49b0431a96be58dfc937"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/common/src/squared/__init__.py",
+    "bytes": 74,
+    "sha256": "e13100465cabbe7e4d3738cf4715bdf79233eab512b07f7fa1badb39a938980b"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/meson.build",
+    "bytes": 886,
+    "sha256": "e2884be8b760a8554b553cf443a411cfd67e3b016ab880066ba2a6d4088d2bb8"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/pyproject.toml",
+    "bytes": 274,
+    "sha256": "110c66e66038500a26421b2829f97a126a9b2ed81f22d13a6e58b27365c5f3c1"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/src/csrc/square.c",
+    "bytes": 61,
+    "sha256": "8f94ab65734a1edbf24c1c8393ac45f37119814d0c887abbf8cfd5326ee811c8"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/src/csrc/square.h",
+    "bytes": 62,
+    "sha256": "7bc79b271985b3148d47a4c32a28fe328248c9a3ebec49b0431a96be58dfc937"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/src/squared/__init__.py",
+    "bytes": 74,
+    "sha256": "e13100465cabbe7e4d3738cf4715bdf79233eab512b07f7fa1badb39a938980b"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/exec_python_example/src/squared/_squared_build.py",
+    "bytes": 222,
+    "sha256": "17f3322a404eb972697483a1962e860ad4d2b384147f9d8bf923f34c0103e79e"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/meson.build",
+    "bytes": 965,
+    "sha256": "bf895044b94a7eda2f60c906d94414f4ffde7a3371efd3318bc9268394d08d82"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/pyproject.toml",
+    "bytes": 274,
+    "sha256": "110c66e66038500a26421b2829f97a126a9b2ed81f22d13a6e58b27365c5f3c1"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/src/csrc/square.c",
+    "bytes": 61,
+    "sha256": "8f94ab65734a1edbf24c1c8393ac45f37119814d0c887abbf8cfd5326ee811c8"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/src/csrc/square.h",
+    "bytes": 62,
+    "sha256": "7bc79b271985b3148d47a4c32a28fe328248c9a3ebec49b0431a96be58dfc937"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/src/squared/__init__.py",
+    "bytes": 74,
+    "sha256": "e13100465cabbe7e4d3738cf4715bdf79233eab512b07f7fa1badb39a938980b"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/src/squared/squared.cdef.txt",
+    "bytes": 18,
+    "sha256": "fb536909ab6aae9b31edc1b2b03d1d6cbf30c999d012dee06193dbf2fc685e9e"
+  },
+  {
+    "path": "testing/cffi1/cffi_gen_src_examples/read_sources_example/src/squared/squared.csrc.c",
+    "bytes": 20,
+    "sha256": "d5f87009ce5e4725bb45714601bfbe433b48452b2ea4ae85c47ae9744158219d"
+  },
+  {
+    "path": "testing/cffi1/test_cffi_binary.py",
+    "bytes": 1034,
+    "sha256": "3af1abae725b9c319f6641697ab8430f8fc244778c4617b521f2de5f1c2f6ebc"
+  },
+  {
+    "path": "testing/cffi1/test_cffi_gen_src.py",
+    "bytes": 6242,
+    "sha256": "fc91f1c37f7ad8a6be5acb6e5e310ae73af67b5b0de8f622c131254074fe2aff"
+  },
+  {
+    "path": "testing/cffi1/test_cffi_gen_src_meson.py",
+    "bytes": 2966,
+    "sha256": "d43bbf5afcaf001add8c760905af97ca7259aebdca7e4263fdf5f63a490836c7"
+  },
+  {
+    "path": "testing/cffi1/test_commontypes.py",
+    "bytes": 915,
+    "sha256": "571369073ba3580aa4e10455206d6759244aa70ebd055b083142b8e7f0288dad"
+  },
+  {
+    "path": "testing/cffi1/test_dlopen.py",
+    "bytes": 7246,
+    "sha256": "83f8b4c8cc6c7a05765b756862edc0d357be8382d65ad223787656c74518bea3"
+  },
+  {
+    "path": "testing/cffi1/test_dlopen_unicode_literals.py",
+    "bytes": 214,
+    "sha256": "cd97910241e78905ffd766b7117b53e8be424aca135425b6ed844bef0556e04a"
+  },
+  {
+    "path": "testing/cffi1/test_ffi_obj.py",
+    "bytes": 17644,
+    "sha256": "7a38db8abf55784e8f412b9da8279698d441b928c8dc2c1bc49177bb8243e529"
+  },
+  {
+    "path": "testing/cffi1/test_function_args.py",
+    "bytes": 7749,
+    "sha256": "2f6574b9b2c8e8391935870b2a53bb5b7decda9f6a82b46a0f60eb91a6f7dca4"
+  },
+  {
+    "path": "testing/cffi1/test_new_ffi_1.py",
+    "bytes": 67374,
+    "sha256": "a3ac36f55fb55939f9f5e1ac3af98a246828bd33fe966ab01379d192f04b0288"
+  },
+  {
+    "path": "testing/cffi1/test_parse_c_type.py",
+    "bytes": 15686,
+    "sha256": "6d73193646be6ecb554717a58c064c713e1ada47ccab7f859a49e1d863f9ca43"
+  },
+  {
+    "path": "testing/cffi1/test_pkgconfig.py",
+    "bytes": 3318,
+    "sha256": "7ac0dc6619ecbda625e70a94d089b633564918c19ac16aca1393fcc3b8427b28"
+  },
+  {
+    "path": "testing/cffi1/test_re_python.py",
+    "bytes": 11747,
+    "sha256": "5d80af0c6a2ed072b97e62c30a99529c64cea2c41d90b79d37e4098c1fc33ed6"
+  },
+  {
+    "path": "testing/cffi1/test_realize_c_type.py",
+    "bytes": 2492,
+    "sha256": "d518679c5bdda604c1ef80d2a80690f88606c4fcda96334b22b21326928dc953"
+  },
+  {
+    "path": "testing/cffi1/test_recompiler.py",
+    "bytes": 95145,
+    "sha256": "d642350606fce912089491435d424f4bf9ebcbb9a4636e66dfac78a287f78e75"
+  },
+  {
+    "path": "testing/cffi1/test_unicode_literals.py",
+    "bytes": 680,
+    "sha256": "6bc239fcc1bec218767aceb6b35a496ab6fabd5e7a4eec470cad3f1e55e792ef"
+  },
+  {
+    "path": "testing/cffi1/test_verify1.py",
+    "bytes": 81521,
+    "sha256": "bbd438ad59392313a37de57bfd713f378c5659a4e9274cccf0c6ef7d65345daf"
+  },
+  {
+    "path": "testing/cffi1/test_zdist.py",
+    "bytes": 16854,
+    "sha256": "7514dd8141f1a6867611f7714ba69576b0a70ca0eb8cd0948083056b835d2238"
+  },
+  {
+    "path": "testing/conftest.py",
+    "bytes": 1966,
+    "sha256": "173fc4bb4c505f7a73f6f8cad747df8fe9c16ede2999c85c0dfe51561212d35a"
+  },
+  {
+    "path": "testing/embedding/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testing/embedding/add1-test.c",
+    "bytes": 289,
+    "sha256": "534d120bfc7ad52b3f78f937e7b9f08bb2d62d2935c8d83d3fd0415091e76d1f"
+  },
+  {
+    "path": "testing/embedding/add1.py",
+    "bytes": 843,
+    "sha256": "d50e59ab57b8dcb114d7624075c66297d7f329ca0370c86898c9f63836890ede"
+  },
+  {
+    "path": "testing/embedding/add2-test.c",
+    "bytes": 211,
+    "sha256": "8e0e60c97ae6bb6dea626e38608ab1641ad1fe8886d7b5a4ef19a2157686fb49"
+  },
+  {
+    "path": "testing/embedding/add2.py",
+    "bytes": 558,
+    "sha256": "ff7588f45657d64614fea3ea85a37c25a80fcce2fddf5c5df868d0d5fe6e03f0"
+  },
+  {
+    "path": "testing/embedding/add3.py",
+    "bytes": 446,
+    "sha256": "d811a8cba091fecb44f2a569d325e1e63c0b3d17db2b7209fa13a0951aa19e31"
+  },
+  {
+    "path": "testing/embedding/add_recursive-test.c",
+    "bytes": 475,
+    "sha256": "a026e5c5dc9368e0c540bba394899da1e72c5dbca602ce183f17d24b2267f6c7"
+  },
+  {
+    "path": "testing/embedding/add_recursive.py",
+    "bytes": 740,
+    "sha256": "b3d00bdb9d0e93b30b98789cc94d1e43a7ced4c80400440a18fe0a0f506d04ea"
+  },
+  {
+    "path": "testing/embedding/empty-test.c",
+    "bytes": 144,
+    "sha256": "ba28a1f537b8207b89c916307ae59d58f90eae06265b0e5509bceefc8e608d69"
+  },
+  {
+    "path": "testing/embedding/empty.py",
+    "bytes": 317,
+    "sha256": "1e2aa8fe60b3bef5b911b086a01e9306ad414b924c51259c54fa04aff4a9e3ab"
+  },
+  {
+    "path": "testing/embedding/initerror.py",
+    "bytes": 243,
+    "sha256": "711b8988cb2c38daca586ec8f3334563082c1ff7aa34775bb2019e47270f9ed5"
+  },
+  {
+    "path": "testing/embedding/perf-test.c",
+    "bytes": 1931,
+    "sha256": "d1c8ea7dfe836e0725f0e59a56ceb5b36195e2abf1d628c2d848b38f177d7fdc"
+  },
+  {
+    "path": "testing/embedding/perf.py",
+    "bytes": 313,
+    "sha256": "3284a64dd4d4a57c8c75afe8eb9fa5f05000cfc0cb549c68b0eb690f5b9bf80f"
+  },
+  {
+    "path": "testing/embedding/test_basic.py",
+    "bytes": 8142,
+    "sha256": "ab03a81e58f0bb31e11df1997cf810d2ed4788216058e6e09a86353e5e4d319f"
+  },
+  {
+    "path": "testing/embedding/test_performance.py",
+    "bytes": 1812,
+    "sha256": "053f33b65c9fb75f1899bbf2eca4c469a4d7847490cb4ad9dbfecdf145a3c6fa"
+  },
+  {
+    "path": "testing/embedding/test_recursive.py",
+    "bytes": 626,
+    "sha256": "d1c601dab409a42f27a48b7da50d50507c3bd1fc1e46d504c6032dffb6e4bae2"
+  },
+  {
+    "path": "testing/embedding/test_thread.py",
+    "bytes": 2790,
+    "sha256": "7fc6c452bfdc47794854e1ca1d219075e52cbea2bfd798bf68fb8b2d3943e9f8"
+  },
+  {
+    "path": "testing/embedding/test_tlocal.py",
+    "bytes": 362,
+    "sha256": "7011ceecd61765452bae1b282f7dfa20b4944e90e530de411b23ec0626dd12f0"
+  },
+  {
+    "path": "testing/embedding/thread-test.h",
+    "bytes": 2245,
+    "sha256": "dd45df5d85fa1f01a4ac1dd64c87985b029d71b85980f75dd5142ef1872e5d32"
+  },
+  {
+    "path": "testing/embedding/thread1-test.c",
+    "bytes": 744,
+    "sha256": "dcc38a2e351629412e68bb90f8f76c89c8efb73aee60803706180f15e0257d3c"
+  },
+  {
+    "path": "testing/embedding/thread2-test.c",
+    "bytes": 1028,
+    "sha256": "6a959d0977ef15d94bf24bd15a6d2292a33af0921a3615e5ed90cdd338c194cb"
+  },
+  {
+    "path": "testing/embedding/thread3-test.c",
+    "bytes": 1117,
+    "sha256": "18c4602fdb2cd4a5078cdfcb3993f19aa3c2003a1d64f26ad43b68c2335d268e"
+  },
+  {
+    "path": "testing/embedding/tlocal-test.c",
+    "bytes": 833,
+    "sha256": "b9064a4045fd31287556ce07b39de1e3b917e3b2f5fbac86c71f1a607abd8a08"
+  },
+  {
+    "path": "testing/embedding/tlocal.py",
+    "bytes": 670,
+    "sha256": "ff840474a13160c767cf66172c033926a8cc80c69395fae7962e282b3f30ed40"
+  },
+  {
+    "path": "testing/embedding/withunicode.py",
+    "bytes": 500,
+    "sha256": "54319c94fa81bb9d2c4708a3c91e03349ef72787333f837fd5fb411901c9823f"
+  },
+  {
+    "path": "testing/support.py",
+    "bytes": 5127,
+    "sha256": "937a36bfbe2a0931f57c78a919f6ebcc94fd2c94e3e59b5a8cbe06f05cdf4c2d"
+  },
+  {
+    "path": "testing/udir.py",
+    "bytes": 4892,
+    "sha256": "fcf759243269201b22eaadc78e4d6dcf7e224824751f7e0cf4241a88b19902d9"
+  }
+]

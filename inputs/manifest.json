@@ -1,0 +1,68 @@
+{
+  "contract": "jarvis.task17.cffi-public-build-inputs.v1",
+  "repository": "mubarakfitini/jarvis-task17-cffi-public-proof",
+  "actor": "mubarakfitini",
+  "source": {
+    "filename": "cffi-2.1.1.tar.gz",
+    "bytes": 530807,
+    "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+    "regular_files": 222,
+    "regular_bytes": 2209252,
+    "inventory_sha256": "b41f4e68b4d7eb27a663d8670e7fa54a1f355fcaf426947f7bb73c2953e4cd81"
+  },
+  "runner": {
+    "label": "windows-2022",
+    "ImageOS": "win22",
+    "ImageVersion": "20261116.370.1",
+    "python_version": "3.12.10",
+    "python_relative_path": "Python/3.12.10/x64/python.exe",
+    "signers": {
+      "python": "Python Software Foundation",
+      "compiler": "Microsoft Corporation"
+    }
+  },
+  "limits": {
+    "workflow_attempts": 1,
+    "build_job_minutes": 20,
+    "attest_job_minutes": 10,
+    "child_timeout_seconds": 480,
+    "download_max_bytes": 8388608,
+    "log_max_bytes": 4194304,
+    "workspace_budget_bytes": 4294967296,
+    "artifact_max_bytes": 16777216,
+    "retention_days": 1
+  },
+  "upstream_object": "src/c/libffi_x86_x64/win64.obj",
+  "assembly": "src/c/libffi_x86_x64/win64.asm",
+  "expected_wheel": "cffi-2.1.1-cp312-cp312-win_amd64.whl",
+  "target_runtime_3_12_14_compatibility_proven": false,
+  "strict_build_origin_gates_closed": 0,
+  "repository_id": "1470347365",
+  "owner_id": "301773805",
+  "source_inventory_sha256": "b41f4e68b4d7eb27a663d8670e7fa54a1f355fcaf426947f7bb73c2953e4cd81",
+  "build_wheels": [
+    {
+      "name": "pip",
+      "version": "26.3",
+      "filename": "pip-26.3-py3-none-any.whl",
+      "sha256": "f3b60b20ffaadd4415ed7957212a38ac63fa4c5fa375bd0f4a797777940fad13"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "filename": "setuptools-84.2.1-py3-none-any.whl",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "filename": "pycparser-3.0-py3-none-any.whl",
+      "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+    }
+  ],
+  "foundation_assumptions": [
+    "Fresh standard GitHub-hosted runner image matching the reviewed image identity.",
+    "Microsoft-signed MSVC 14.44 compiler/assembler/linker and PSF-signed CPython 3.12.10; actual hashes captured before compilation.",
+    "These identities and hashes are bounded build evidence, not complete source-to-binary provenance for the compiler, interpreter, OS or build frontend/backend."
+  ]
+}
