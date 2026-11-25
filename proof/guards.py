@@ -125,7 +125,7 @@ def context_guard(context, manifest, approved_commit, manifest_bytes, approved_m
     require(str(context["owner_id"]) == str(manifest["owner_id"]), "owner identity")
     require(context["visibility"] == "public", "visibility")
     require(context["event"] == "workflow_dispatch" and context["ref"] == "refs/heads/main", "event/ref")
-    require(context["attempt"] == "1" and context["run_number"] == "2", "one-use workflow")
+    require(context["attempt"] == "1" and context["run_number"] == "3", "one-use workflow")
     require(re.fullmatch(r"[0-9a-f]{40}", approved_commit or "") is not None, "commit format")
     require(context["sha"] == approved_commit, "approved commit")
     require(re.fullmatch(r"[0-9a-f]{64}", approved_manifest or "") is not None, "manifest format")
@@ -179,7 +179,13 @@ def wheel_files(data, filename, max_bytes=8 * 1024 * 1024):
             total += entry.file_size
             require(total <= 32 * 1024 * 1024 and entry.file_size <= 16 * 1024 * 1024, "wheel expansion")
             result[entry.filename] = wheel.read(entry)
-    records = [p for p in result if p.endswith(".dist-info/RECORD")]
+    # Only the outer distribution owns the wheel RECORD. Vendored dist-info
+    # entries remain payload data and must still pass the outer RECORD hashes.
+    roots = {p.split("/", 1)[0] for p in result
+             if "/" in p and p.split("/", 1)[0].endswith(".dist-info")}
+    require(len(roots) == 1, "one top-level dist-info")
+    records = [p for p in result if p.endswith(".dist-info/RECORD")
+               and len(PurePosixPath(p).parts) == 2]
     require(len(records) == 1, "one RECORD")
     record = records[0]
     seen = set()
@@ -208,8 +214,11 @@ def tool_wheel(data, pin):
                         ("cli.exe", "cli-32.exe", "cli-64.exe", "cli-arm64.exe",
                          "gui.exe", "gui-32.exe", "gui-64.exe", "gui-arm64.exe")}
             require(path in allowed, "unexpected executable launcher")
-    metadata = [p for p in files if p.endswith(".dist-info/METADATA")]
+    metadata = [p for p in files if p.endswith(".dist-info/METADATA")
+                and len(PurePosixPath(p).parts) == 2]
     require(len(metadata) == 1, "tool METADATA")
+    expected_metadata = pin["name"].replace("-", "_") + "-" + pin["version"] + ".dist-info/METADATA"
+    require(metadata[0] == expected_metadata, "tool identity")
     m = BytesParser().parsebytes(files[metadata[0]])
     require(m["Name"].lower().replace("_", "-") == pin["name"].lower().replace("_", "-")
             and m["Version"] == pin["version"], "tool identity")
