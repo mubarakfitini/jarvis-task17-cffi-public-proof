@@ -19,7 +19,7 @@ def main():
     module = Path(msvc.__file__).resolve()
     if not module.is_relative_to(Path(sys.prefix).resolve()):
         raise RuntimeError("Backend environment")
-    compiler = msvc.MSVCCompiler()
+    compiler = msvc.Compiler()
     compiler.initialize("win-amd64")
     paths = {"cl": str(Path(compiler.cc).resolve()), "link": str(Path(compiler.linker).resolve())}
     result = {"paths": paths, "sha256": {n: hash_file(Path(p)) for n, p in paths.items()},
