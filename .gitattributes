@@ -1,0 +1,14 @@
+# Preserve exact reviewed bytes; do not convert line endings on checkin or checkout.
+/.gitattributes -text
+/.github/workflows/cffi-proof.yml -text
+/README.md -text
+/inputs/cffi-2.1.1.tar.gz -text
+/inputs/manifest.json -text
+/inputs/source-files.json -text
+/proof/build.cmd -text
+/proof/build_candidate.py -text
+/proof/compiler_selection.py -text
+/proof/guards.py -text
+/proof/preflight.py -text
+/proof/tool-signatures.ps1 -text
+/proof/verify_artifact.py -text
