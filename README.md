@@ -2,7 +2,7 @@
 
 This repository holds a single isolated Windows AMD64 / CPython 3.12 build experiment for public CFFI 2.1.1. It contains no private application code, account data, database, credentials or conversation history. Nothing deploys to an application or package registry.
 
-The workflow is manually dispatched. Uploading it does not start a build. Execution requires a separately reviewed exact commit and `inputs/manifest.json` digest. This local corrected candidate proposes only run number 3, attempt 1, subject to separate owner authorization. Runs 1 and 2 are consumed; reruns and every other run number are refused.
+The workflow is manually dispatched. Uploading it does not start a build. Execution requires a separately reviewed exact commit and `inputs/manifest.json` digest. This local corrected candidate proposes only run number 4, attempt 1, subject to separate owner authorization. Runs 1, 2 and 3 are consumed; reruns and every other run number are refused.
 
 ## Inputs and scope
 
