@@ -10,6 +10,14 @@ from build_candidate import context
 from guards import archive_files, context_guard, digest, require, read_bounded
 
 
+def inventory_diagnostic(inventory, expected_sha256):
+    # Public fixed input only: no content, environment values, paths or exception text.
+    return {"phase": "PREFLIGHT", "input": "inputs/source-files.json",
+            "expected_sha256": expected_sha256, "expected_bytes": 34387,
+            "actual_sha256": digest(inventory), "actual_bytes": len(inventory),
+            "LF_count": inventory.count(b"\n"), "CRLF_count": inventory.count(b"\r\n")}
+
+
 def main():
     require(sys.platform == "win32" and os.environ.get("GITHUB_ACTIONS") == "true", "GitHub Windows only")
     root = Path(os.environ["GITHUB_WORKSPACE"]).resolve()
@@ -23,6 +31,7 @@ def main():
     require(Path(sys.executable).resolve() == (Path(os.environ["RUNNER_TOOL_CACHE"]) /
             manifest["runner"]["python_relative_path"]).resolve(), "builder path")
     inventory = read_bounded(root / "inputs/source-files.json", 1024 * 1024)
+    print(json.dumps(inventory_diagnostic(inventory, manifest["source_inventory_sha256"]), sort_keys=True))
     require(digest(inventory) == manifest["source_inventory_sha256"], "inventory digest")
     archive_files(read_bounded(root / "inputs/cffi-2.1.1.tar.gz", 530807, 530807), manifest["source"], json.loads(inventory))
     print("PASS: bounded context/source preflight; no trust or release admission")

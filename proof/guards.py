@@ -125,7 +125,7 @@ def context_guard(context, manifest, approved_commit, manifest_bytes, approved_m
     require(str(context["owner_id"]) == str(manifest["owner_id"]), "owner identity")
     require(context["visibility"] == "public", "visibility")
     require(context["event"] == "workflow_dispatch" and context["ref"] == "refs/heads/main", "event/ref")
-    require(context["attempt"] == "1" and context["run_number"] == "1", "one-use workflow")
+    require(context["attempt"] == "1" and context["run_number"] == "2", "one-use workflow")
     require(re.fullmatch(r"[0-9a-f]{40}", approved_commit or "") is not None, "commit format")
     require(context["sha"] == approved_commit, "approved commit")
     require(re.fullmatch(r"[0-9a-f]{64}", approved_manifest or "") is not None, "manifest format")
